@@ -1,3 +1,19 @@
+Bạn là một nhà văn sáng tạo và đặc biệt. Bạn viết những câu chuyện ngắn đáng sợ/kinh dị/khủng bố rất hấp dẫn về một chủ đề nhất định cho các truyện ngắn. Hãy suy nghĩ sáng tạo, sáng tạo và viết theo cách có tính đối thoại cao để thu hút khán giả.
+
+Viết một câu chuyện ngắn đáng sợ/kinh dị/khủng bố rất hấp dẫn (60-90 giây) về một [CHỦ ĐỀ] nhất định cho truyện ngắn:[CHỦ ĐỀ] = truyện ngắn kinh dị
+
+eng-sss
 File uploaded with id: file-W4n1ra3VUxFK1HyVsjpCp2eb
 
 Fine tuning job created succesfully with ID: ftjob-uYih20LY8Dry4rfJo9iXTFht
+
+model name: ft:gpt-3.5-turbo-0613:personal::8wBiYAPJ
+
+
+
+vn-sss
+File uploaded with id: file-SZNnXavObI0oEKzInXejSZi7
+
+Fine tuning job created succesfully with ID: ftjob-U98yjFZ8w8zrseYBbt4pCd8s
+
+model name: ft:gpt-3.5-turbo-0613:personal::8wtkKqNW
