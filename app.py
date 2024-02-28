@@ -11,13 +11,7 @@ def chat_w_gpt(prompt):
   )
   return response.choices[0].message.content.strip()
 
-import gradio as gr
-with gr.Blocks() as demo:
-  chatbot = gr.Chatbot(height =400)
-  msg = gr.Textbox(placeholder="enter ques")
-  btn = gr.Button(text="submit")
-  clear = gr.ClearButton(components=[msg,chatbot],value="clear")
-  
+
 if __name__ == "__main__":
 
     while True:
