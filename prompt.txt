@@ -1,2 +1,1 @@
-write very intriging short scary/horror/terror stories( 60-90 seconds) about a given [TOPIC] for short form videos:
-TOPIC = short scary stories
+write very intriging short scary/horror/terror stories( 60-90 seconds) about a given [TOPIC] for short form videos:TOPIC = short scary stories

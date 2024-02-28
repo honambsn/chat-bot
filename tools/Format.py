@@ -24,7 +24,7 @@ print("Done step 2")
 
 #step 3: get text content and format it
 input_file = "D:\\Ba Nam\\nam 4 hoc ky 2\\chatbot\\demo\\tools\\pre-output.txt"
-output_file = "D:\\Ba Nam\\nam 4 hoc ky 2\\chatbot\\demo\\story\\" + first_line + ".txt"
+output_file = "D:\\Ba Nam\\nam 4 hoc ky 2\\chatbot\\demo\\story2\\" + first_line + ".txt"
 s3.remove_line_breaks_and_spaces(input_file, output_file)
 print("Done step 3")
     

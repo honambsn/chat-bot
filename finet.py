@@ -12,10 +12,22 @@ api_key = open_file('api_key.txt')
 
 openai.api_key = api_key
 
-with open("D:/Ba Nam/nam 4 hoc ky 2/chatbot/demo/fix copy.jsonl","rb") as file:
-    response = openai.File.create(
-        file = file,
-        purpose = 'fine-tune'
-    )
-file_id = response['id']
-print(f"File uploaded with id: {file_id}")
+def file_upload():
+    with open("D:/Ba Nam/nam 4 hoc ky 2/chatbot/demo/vn.jsonl","rb") as file:
+        response = openai.File.create(
+            file = file,
+            purpose = 'fine-tune'
+        )
+    file_id = response['id']
+    print(f"File uploaded with id: {file_id}")
+    
+    
+# def file_upload():
+#     with open("D:/Ba Nam/nam 4 hoc ky 2/chatbot/demo/vn.jsonl","rb") as file:
+#         response = openai.File.create(
+#             file = file,
+#             purpose = 'fine-tune'
+#         )
+#     file_id = response['id']
+#     print(f"File uploaded with id: {file_id}")
+    
