@@ -1,0 +1,6 @@
+openai==0.28.0
+gTTS==2.5.1
+gradio==4.18.0
+gradio_client==0.10.0
+gTTS==2.5.1
+SpeechRecognition==3.10.1
