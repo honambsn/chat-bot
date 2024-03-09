@@ -12,7 +12,9 @@ api_key = open_file('api_key.txt')
 
 openai.api_key = api_key
 
-file_id = "file-W4n1ra3VUxFK1HyVsjpCp2eb"
+
+#file_id = "file-W4n1ra3VUxFK1HyVsjpCp2eb"
+file_id = "file-SZNnXavObI0oEKzInXejSZi7"
 model_name = "gpt-3.5-turbo"
 
 # with open("D:/Ba Nam/nam 4 hoc ky 2/chatbot/demo/fix copy.jsonl","rb") as file:
@@ -30,3 +32,16 @@ response = openai.FineTuningJob.create(
 
 job_id = response['id']
 print(f"Fine tuning job created succesfully with ID: {job_id}")
+
+
+
+# def fine_tune(file_id):
+#     model_name = "gpt-3.5-turbo"
+#     response = openai.FineTuningJob.create(
+#         training_file = file_id,
+#         model=model_name
+#     )
+
+#     job_id = response['id']
+#     print(f"Fine tuning job created succesfully with ID: {job_id}")
+#     return job_id

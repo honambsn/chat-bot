@@ -22,3 +22,7 @@ if __name__ == "__main__":
         break
       response = chat_w_gpt(user_input)
       print("chat bot: ", response)
+      print(type(response), len(response))
+      with open("D:/Ba Nam/nam 4 hoc ky 2/chatbot/demo/content.txt", 'w', encoding='utf-8') as outfile:
+        outfile.write(response)
+    

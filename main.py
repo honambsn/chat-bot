@@ -5,7 +5,11 @@ import os
 import speech_recognition as sr
 import time
 
-openai.api_key = "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"
+
+def open_file(filepath):
+    with open(filepath, 'r', encoding='utf-8') as infile:
+        return infile.read()
+openai.api_key = open_file('api_key.txt')
 
 
 def chat_w_gpt(prompt):
@@ -33,8 +37,9 @@ def text_to_speech(text):
 def chatbot_function(input_text):
     bot_response = chat_w_gpt(input_text)
     tts = text_to_speech(bot_response)
-    tts.save("output.mp3")
-    return bot_response, "output.mp3", ""
+    relative_path = os.path.join('audio', 'output.mp3')
+    tts.save(relative_path)
+    return bot_response, relative_path, ""
 
 iface = gr.Interface(
     fn=chatbot_function, 

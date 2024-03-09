@@ -2,16 +2,20 @@ import speech_recognition as sr
 import openai
 import time
 import pygame
+import os
 
 # Initialize OpenAI API
-openai.api_key = "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"
-
+def open_file(filepath):
+    with open(filepath, 'r', encoding='utf-8') as infile:
+        return infile.read()
+openai.api_key = open_file('api_key.txt')
 # Function to recognize speech
 def recognize_speech(timeout=3):
     recognizer = sr.Recognizer()
     pygame.init()
     pygame.mixer.init()
-    countdown_sound = pygame.mixer.Sound("tone2.wav")
+    relative_path = os.path.join('ringtone', 'tone1.wav')
+    countdown_sound = pygame.mixer.Sound(relative_path)
     countdown_sound.play()
 
     with sr.Microphone() as source:

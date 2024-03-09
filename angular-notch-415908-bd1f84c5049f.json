@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "angular-notch-415908",
+  "private_key_id": "bd1f84c5049f56447c8a3e4cbb710fd5d3a6c3a7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDamBMsZFmyNMmF\nmHFDKfK41HvS4/uEs3Sb6IGCodxMK+nLSU7NHNQK+UdLbqyUFbcaAW1nb6uhVuMl\nkth3PUV8V2siRo/TgMKwVJg036Xef1d1uW84wWZiQoN2xHSjf/x0s3d1hFdgkQ4b\nfU/A+8693ICn42TSv1IXx2t2k9MknNLIkjZERyWDKueEmSguy8SQVj50vBEXmBrP\nAoBS1eC5dBUO87VgftMazdCkKuhOtCiB5Kx72csEEP+FlymFUOu8R7e0qyGgM3Ky\nu+8zulkmC7f1pgLyW14efh9aVK2fLEEWA1UYVQYIYN/0544pawI+l2v6Jv/dT61U\nbmRWFaQrAgMBAAECggEAN+Nx44O0uy9r5tBXBQkQmdkZ342SnRcU1VfY5QFlRcRk\nfik8EI0yWavqYorlbOcwbWG4Cx4uD44bfVvSJIpx3ZysM5M+6qCdJmA6miokSoLc\nZakHmsc32h+PZSpNeBAdB+lqvY0cmf/8T2L2pSy8ayaZblNhT9DCuHmwLB0XeuB0\nqx4eKWVwzcvY9v4ADWuIOe062WYeeYxFLs2jUFVijHqJVTWPF8VZNYiws6UzP138\nVWxvS+VZOnqaaqtmS2W+EVyaVwt6+l3+XLyS8q33MhmPHP5GgZNUU6wix4AIhE7Y\nLqsRjxZW1u+1udiRHpf+0WcIn3MXq4RQ9Edx8D1fQQKBgQD0uaHRdgIqOz+Wl1aV\nA/xmYzXyFZW3oBHx+6Za1VtVEyfTlB5OII0HzsfHyKpFcMI8oXlxBV3kpQQE3Etu\n8e+JufHUjnyWAv6wEfrXuYtB/eH2IN21wcn9/tQVqE68NNIV51mf8u5tv6S1JDCk\nhy5WqUa8T5KHu0wnU6kZc7JlyQKBgQDkqj6JewpXU/LKb6Dyc0u0315wFREVk3i7\n7/qEfWgq8PXv9a/A4aQqlpzjFbatL7HRqx35o8IpebLDdRP6wxvQg5vN8tHOkKnH\niU2ntsskmcJ1ZtHnYPDdewUuH7z5eiEFZEUc8XTtRaP04+4NRm3YHOU4NvWmyGxS\n9ww1ziuEUwKBgQDhSueyui4CDOtcSlR1+OZqp9jo1YAwPNdoayBZrONY7bqTaF+B\n0yuiTXXT8WL3bHgUcx8msicfL98ETn3PVEEODLWZ1dbSD03Cb7r60CBojz5vZRBW\nnGHFR8ydZ4WcdBAYBBSZUH65YF1UOU3imWRKeanaAHNIK2BPMBCTktRgKQKBgBjL\nJNC/WJWzcoXkqKzhN3o7JgA9KIcQYGzwTleDSYIuclw8ZXwieyxq/EPbHN2WaE91\noGBrEyhwG6P509rCwQdQ3dns1DbzlJUgHB1tQoWLbnxQU74k0rkRF7SymEjspxvw\njVXgEG+Rt39cH3mtA0gFig0YWHZnEOfGBbrnyewlAoGAYRvc4zFOdyWv01kScq8p\ncYIhhcz0Ev5P7KJ+7brCVqEk2sS99FbMr5rdoFeurTc0ZEgUXBGDQC4NZiSrb/pi\nuJDG6V/f/f15nKRaYn4qXic90bwLJgvMLwCp3vSaTgH3LpGTH/7Z3x61AXcADqBV\nlWTZ+M0TQ1Lw8vGTgTktjHI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hbnam20-clc-fitus-edu-vn@angular-notch-415908.iam.gserviceaccount.com",
+  "client_id": "115643081121880062421",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hbnam20-clc-fitus-edu-vn%40angular-notch-415908.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
