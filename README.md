@@ -1,5 +1,5 @@
 havent complete yet:
--ui
+* ui
 -combine all bot into 1
 -image generation
 -assistant ai
