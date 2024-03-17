@@ -3,7 +3,7 @@ from gtts import gTTS
 import os
 
 # Set up your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 def chat_with_bot(prompt):
   response = openai.ChatCompletion.create(
